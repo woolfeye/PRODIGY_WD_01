@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url(image.avif);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: background-color 0.3s;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  margin: 0 10px;
+
+  
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.navbar a:hover {
+  color: #61dafb;
+  text-decoration:underline; /* Underline on hover*/
+}
+
+
+.content {
+  margin-top: 80px; /* Adjust this value to prevent content from being hidden behind the fixed navbar */
+  padding: 20px;
+}
+
+p{
+  color: rgb(45, 20, 79);
+  
+}
+.p2{
+  color:rgb(230, 182, 9);
+
+}
